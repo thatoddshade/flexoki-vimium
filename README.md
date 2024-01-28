@@ -1,25 +1,27 @@
-# Vimium Dark Theme
-A custom dark theme for the Vimium browser add-on, with code based on [Foldex/vimium-dark-themes](https://github.com/Foldex/vimium-dark-themes). For more custom themes, visit [Vimium's GitHub wiki](https://github.com/philc/vimium/wiki/Theme) on themes. Designed to closely resemble Firefox's user interface.
+# Flexoki Vimium
 
-## Installing Vimium
+A (soon) [Flexoki](https://stephango.com/flexoki/) port for [Vimium](https://github.com/philc/vimium/) forked from @gajaza's [Vimium Dark Theme](https://github.com/gajaza/vimium-dark-theme).
 
-You can install [Vimium](https://github.com/philc/vimium) from your respective browser's add-ons store:
+## Vimium installation
+
+You can install [Vimium](https://github.com/philc/vimium/) from your respective browser's add-ons store:
 
 - [Google Chrome](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en)
 - [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/vimium-ff/)
 
-[More instructions](https://github.com/philc/vimium)
+More instructions can be found [here](https://github.com/philc/vimium/).
 
-## Customising Your Vimium's CSS
+## Vimium CSS customisation
 
-Copy the code in the [CSS file](https://github.com/gajzl/vimium-dark-theme/blob/main/stylesheet.css) into 'CSS for Vimium UI' inside 'Vimium Options' in your browser's add-ons settings:
+Copy the code in the [CSS file](https://github.com/gajzl/vimium-dark-theme/blob/main/stylesheet.css) into "CSS for Vimium UI" inside "Vimium Options" in your browser's add-ons settings:
 
-- Google Chrome: chrome://extensions/
-- Firefox: about:addons
+- [Google Chrome](https://www.google.com/chrome/) and other [Chromium](https://www.chromium.org/Home/)-based browsers: `chrome://extensions/`
+- [Firefox Browser](https://www.mozilla.org/en-US/firefox/): `about:addons`
 
-Note that you may have to reload the page for the custom CSS to take effect.
+You may have to reload the page for the custom CSS to take effect.
 
 ---
+
 ## Screenshots
 
 ### Link Hints
