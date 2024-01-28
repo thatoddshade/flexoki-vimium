@@ -13,14 +13,12 @@ More instructions can be found [here](https://github.com/philc/vimium/).
 
 ## Vimium CSS customisation
 
-Copy the code in the [CSS file](https://github.com/gajzl/vimium-dark-theme/blob/main/stylesheet.css) into "CSS for Vimium UI" inside "Vimium Options" in your browser's add-ons settings:
+Copy the code in the [CSS file](https://github.com/gajzl/vimium-dark-theme/blob/main/stylesheet.css) into "CSS for Vimium UI" inside "Vimium Options" in your browser's add-on settings:
 
-- [Google Chrome](https://www.google.com/chrome/) and other [Chromium](https://www.chromium.org/Home/)-based browsers: `chrome://extensions/`
-- [Firefox Browser](https://www.mozilla.org/en-US/firefox/): `about:addons`
+- [Google Chrome](https://www.google.com/chrome/) and other [Chromium](https://www.chromium.org/Home/)-based browsers: `chrome://extensions/`.
+- [Firefox Browser](https://www.mozilla.org/en-US/firefox/): `about:addons`.
 
 You may have to reload the page for the custom CSS to take effect.
-
----
 
 ## Screenshots
 
