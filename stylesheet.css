@@ -14,36 +14,35 @@
     --shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 
 /* -------- VOMNIBAR & HUD -------- */
-    --fg: #FFFFFF;
-    --fg-dark: #ffffff65;
-    --fg-url: #84BFFA; 
-    --fg-match: #d4e7ff;
-    /* ALTERNATIVE `--fg-match' COLOR: 
-    --fg-match: #F29A4A; */
+    --fg: #FFFCF0; /* flexoki-paper; originally #FFFFFF */
+    --fg-dark: #FFFCF065; /* flexoki-black; originally #FFFFFF65 */
+    --fg-url: #3AA99F; /* flexoki-blue-400; originally #84BFFA */ 
+    --fg-match: #EBF2E7; /*#d4e7ff;*/
 
-    --bg: #2A2A2E;
-    --bg-searcharea: #222225;
-    --bg-selected: #2165D9;
+    --bg: #100F0F; /* flexoki-900; originally #2A2A2E */
+    --bg-searcharea: #100F0F;/* flexoki-black; originally #222225 */
+    --bg-selected: #3AA99F;
+    --bg-match: #ad8301;
 
-    --border: #404046;
+    --border: #403e3c;
 
-/* -------- HINTS -------- */
-    --bg-hints: #FFD752;      /* Background color of link hints */
-    --border-hints: #F4CA46;  /* Border color of link hints */
-    --fg-hints: #000000;      /* Text color of link hints, (don't forget to change `#vimiumHintMarkerContainer div > .matchingCharacter ~ span`) */
+/* -------- hints -------- */
+    --bg-hints: #fceeb8;      /* background color of link hints */
+    --border-hints: #d0a215/*#ad8301;*/  /* border color of link hints */
+    --fg-hints: #100f0f;     /* text color of link hints, (don't forget to change `#vimiumhintmarkercontainer div > .matchingcharacter ~ span`) */
 }
 
-/* --------------------------------- CSS --------------------------------- */
+/* --------------------------------- css --------------------------------- */
 
-/* -------- HINTS -------- */
-#vimiumHintMarkerContainer div.internalVimiumHintMarker, #vimiumHintMarkerContainer div.vimiumHintMarker {
+/* -------- hints -------- */
+#vimiumhintmarkercontainer div.internalvimiumhintmarker, #vimiumhintmarkercontainer div.vimiumhintmarker {
     background: var(--bg-hints);
     border: 1px solid var(--border-hints);
     box-shadow: var(--shadow);
     padding: 2px 3px;
 }
 
-#vimiumHintMarkerContainer div span {
+#vimiumhintmarkercontainer div span {
     color: var(--fg-hints);
     font-family: var(--font);
     font-size: var(--font-size-hints);
@@ -51,11 +50,11 @@
     text-shadow: none;
 }
 
-#vimiumHintMarkerContainer div > .matchingCharacter {
+#vimiumhintmarkercontainer div > .matchingcharacter {
     opacity: 0.3;
 }
 
-#vimiumHintMarkerContainer div > .matchingCharacter ~ span {
+#vimiumhintmarkercontainer div > .matchingCharacter ~ span {
     color: var(--hints-main-fg);
 }
 
